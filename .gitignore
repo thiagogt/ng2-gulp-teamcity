@@ -1,0 +1,14 @@
+# Node Modules folder
+typings
+node_modules
+jspm_packages
+bower_components
+
+# Visual Studio Code User-specific files
+.vscode
+
+app/**/*.js
+app/**/*.js.map
+app/**/*.d.ts
+app/**/*.css
+
