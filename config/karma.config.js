@@ -9,7 +9,7 @@ module.exports = function (config) {
           require('jasmine-core'),
           require('karma-jasmine'),
           require('karma-chrome-launcher'),
-          require('karma-jasmine-html-reporter'),
+          require('karma-teamcity-reporter'),
           require('karma-phantomjs-launcher')
         ],
         customLaunchers: {

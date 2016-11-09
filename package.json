@@ -52,6 +52,7 @@
     "karma-chrome-launcher": "^0.2.0",
     "karma-jasmine": "^0.3.6",
     "karma-jasmine-html-reporter": "^0.1.8",
+    "karma-phantomjs-launcher": "^1.0.2",
     "karma-teamcity-reporter": "^1.0.0",
     "lite-server": "^2.2.2",
     "merge2": "^1.0.2",
