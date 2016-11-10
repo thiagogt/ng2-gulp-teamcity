@@ -6,10 +6,10 @@ module.exports = function (config) {
         basePath: '..',
         frameworks: ['jasmine'],
         plugins: [
+          require('karma-teamcity-reporter'),
           require('jasmine-core'),
           require('karma-jasmine'),
           require('karma-chrome-launcher'),
-          require('karma-teamcity-reporter'),
           require('karma-phantomjs-launcher')
         ],
         customLaunchers: {
