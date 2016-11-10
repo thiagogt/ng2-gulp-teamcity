@@ -100,6 +100,7 @@ module.exports = function (config) {
         preprocessors: {},
         port: 9876,
         logLevel: config.LOG_INFO,
+        reporters: ['teamcity']
 
     });
 };
